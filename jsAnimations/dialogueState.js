@@ -1,7 +1,6 @@
 function DialogueState() {
-    this.userName = "";
+    this.userName = null;
     this.rps = "";
-    this.userNumber = null;
 }
 
 DialogueState.prototype.setUserName = function(str) {

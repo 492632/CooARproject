@@ -35,7 +35,7 @@ AFRAME.registerComponent('jump-dialogue', {
 
 function showDialogueJump() {
     let cooBubbleJump = document.querySelector("#cooBubbleJump");
-    cooBubbleJump.innerHTML = "Do you wanna see a magic trick? Think of a number from 1 to 10, I can guess it. <br><br><i>Tap here</i>"
+    cooBubbleJump.innerHTML = "Do you wanna see a magic trick? Think of a number from 1 to 5, I can guess it. <br><br><i>Tap here</i>"
     cooBubbleJump.style.display = "block";
 }
 
