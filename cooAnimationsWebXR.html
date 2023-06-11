@@ -9,11 +9,12 @@
 	</head>
 	<body>
 
-		<a-scene webxr="optionalFeatures: hit-test;" ar-hit-test="target: #coo; " renderer="colorManagement: true;">
+		<a-scene vr-mode-ui="enabled: false" webxr="optionalFeatures: hit-test;" ar-hit-test="target: #coo; " renderer="colorManagement: true;">
 			<a-assets>
 				<a-asset-item id="coo-gltf" src="models/cooWithoutVRsk.gltf"></a-asset-item>
 			</a-assets>
-			<div style="background-color: #292C33; padding: 15px; position: fixed; top: 25px; left: 25px; z-index: 1;">
+			
+			<div style="background-color: #292C33; padding: 15px; position: fixed; top: 25px; left: 25px; z-index: 1; border-radius: 10px;">
 				<select id="animSelect" style="background-color: #ebebeb; color: #292C33;">
 					<option value="waving">Waving</option>
 					<option value="idle">Bored Idle</option>

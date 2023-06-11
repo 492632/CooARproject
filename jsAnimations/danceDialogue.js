@@ -7,7 +7,7 @@ AFRAME.registerComponent('dance-dialogue', {
 
 function showDialogueDance() {
     let cooBubbleDance = document.querySelector("#cooBubbleDance");
-    cooBubbleDance.innerHTML = "My dentist told me I don't floss enough.";
+    cooBubbleDance.innerHTML = "My dentist told me I don't floss enough, so I started flossing every day.";
     cooBubbleDance.style.display = "block";
 }
 
