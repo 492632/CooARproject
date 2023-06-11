@@ -16,7 +16,7 @@ AFRAME.registerComponent('vr-dialogue', {
 
 function showDialogueVR() {
     let cooBubbleVR = document.querySelector("#cooBubbleVR");
-    cooBubbleVR.innerHTML = "Wow, look at this! Have you ever tried VR glasses? <br><br><i>Tap here</i>"
+    cooBubbleVR.innerHTML = "Wow, look at this! Have you ever tried VR? <br><br><i>Tap here</i>"
     cooBubbleVR.style.display = "block";
 }
 
@@ -31,7 +31,7 @@ function answerDialogueVR() {
 
 function answerDialogueVR1() {
     let cooBubbleVR = document.querySelector("#cooBubbleVR");
-    cooBubbleVR.innerHTML = "You should definitely try it, we have some VR glasses in the lab!"
+    cooBubbleVR.innerHTML = "You should definitely try it, we have some VR headsets in the lab!"
 
     let dialogueBtnsDiv = document.querySelector("#dialogueBtnsDivVR");
     dialogueBtnsDiv.style.display = "none"
@@ -40,7 +40,7 @@ function answerDialogueVR1() {
 
 function answerDialogueVR2() {
     let cooBubbleVR = document.querySelector("#cooBubbleVR");
-    cooBubbleVR.innerHTML = "It's so cool, right? We have some VR glasses in the lab, if you ever want to try it again!"
+    cooBubbleVR.innerHTML = "It's so cool, right? We have some VR headsets in the lab, if you ever want to try it again."
 
     let dialogueBtnsDiv = document.querySelector("#dialogueBtnsDivVR");
     dialogueBtnsDiv.style.display = "none"
